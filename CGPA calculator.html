@@ -7,9 +7,11 @@
 
 <body style="text-align:center;border-style:dashed;"><br>
     <h1 style="margin-top:-5px">CGPA Calculator for ECEians @ NITJ</h1>
-    <h4>1. Select semester and click on Submit Semester button.</h4>
+    <h4>1. Select semester.</h4>
     <h4>2. Click on Calculate Result button to get your SGPA and CGPA.</h4>
-    <pre><select id="semester" style="height:40px;width:100px;border-radius:10px;font-size:12pt;" autofocus>
+    <pre><select id="semester" onchange="sem()" style="height:40px;cursor:hand;width:150px;border-radius:10px;border:1.5px solid black;font-size:12pt;" autofocus>
+        <option>Select Semester
+            <option>
                 <option value=1>First
                   <option value=2>Second
                       <option value=3>Third
@@ -18,7 +20,7 @@
                                   <option value=6>Sixth
                                       <option value=7>Seventh
                                           <option value=8>Eighth  
-                </select>    <button type="button" onclick="sem()" onmousedown="this.style.background='#fff';" onmouseup="this.style.background='#ddd';" style="height:40px;cursor:hand;width:130px;border-radius:15px;font-size:10.5pt;border:1px solid black;font-family:Arial"><b>Submit Semester</b></button></pre>
+                </select></pre>
     <pre><h6 id="textin" style="font-size:12pt"></h6></pre>
     <h6 id="resin" style="font-size:13pt;text-decoration:underline;"></h6>
     <button type="button" id="sgb" onclick="calcsg();" onmousedown="this.style.background='#fff';" onmouseup="this.style.background='#ddd';"
