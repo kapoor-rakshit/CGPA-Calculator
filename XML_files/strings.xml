@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CGPAcalculator</string>
+    <string-array name="sem">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eighth Semester</item>
+    </string-array>
+</resources>
